@@ -1,1 +1,28 @@
-<mxfile host="app.diagrams.net" modified="2022-08-26T02:20:21.402Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" version="20.2.3" etag="snbbRZ3FWmQh69cQ-Vnl" type="github"><diagram id="SZeqILC4WRQRvYrKo_g2">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-08-26T02:37:23.169Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="pLzou6hIt3lPYqzOHxrM" version="20.2.3" type="github">
+  <diagram id="SZeqILC4WRQRvYrKo_g2" name="Page-1">
+    <mxGraphModel dx="946" dy="613" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="z96YX2Z_3esr8ZKRBaH9-1" value="Nginx / Envoy" style="rounded=1;whiteSpace=wrap;html=1;arcSize=0;" vertex="1" parent="1">
+          <mxGeometry x="160" y="100" width="700" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="z96YX2Z_3esr8ZKRBaH9-3" value="业务网关&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=0;" vertex="1" parent="1">
+          <mxGeometry x="490" y="160" width="370" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="z96YX2Z_3esr8ZKRBaH9-4" value="NLB" style="rounded=1;whiteSpace=wrap;html=1;arcSize=0;" vertex="1" parent="1">
+          <mxGeometry x="160" y="40" width="700" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="z96YX2Z_3esr8ZKRBaH9-5" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="80" y="230" as="sourcePoint" />
+            <mxPoint x="860" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="z96YX2Z_3esr8ZKRBaH9-6" value="接入层" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="70" y="85" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
