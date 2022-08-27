@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-27T10:58:32.327Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="e7_CdfrDySYPiuYOXBm0" version="20.2.7" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-08-27T11:35:17.274Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="7m4o6KJuzZ0B8GfFjI6T" version="20.2.7" type="github" pages="3">
   <diagram id="SZeqILC4WRQRvYrKo_g2" name="灵犀架构图">
     <mxGraphModel dx="946" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -481,28 +481,77 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="ruIyW00yJMx7qY-qJ9gZ-1" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;客户端&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-720" y="80" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="RAlQgDkP0ImJ7d6r0pqR-1" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;Nginx&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-720" y="200" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="RAlQgDkP0ImJ7d6r0pqR-2" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;Envoy&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-720" y="320" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="rFD2wN1z_Jku8epYGn0b-6" value="客户端" style="swimlane;labelBackgroundColor=#FFFFFF;fontSize=14;fontColor=#000000;strokeWidth=1;startSize=50;arcSize=3;" vertex="1" parent="1">
-          <mxGeometry x="-440" y="80" width="180" height="110" as="geometry">
-            <mxRectangle x="-440" y="90" width="80" height="60" as="alternateBounds" />
+        <mxCell id="5MiPELnv2hCGfSATgIlV-3" value="Nginx" style="swimlane;labelBackgroundColor=#FFFFFF;fontSize=14;fontColor=#000000;strokeWidth=1;startSize=60;arcSize=10;" vertex="1" parent="1">
+          <mxGeometry x="-730" y="270" width="200" height="110" as="geometry">
+            <mxRectangle x="-380" y="250" width="80" height="60" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rFD2wN1z_Jku8epYGn0b-7" value="业务代码生成TraceId" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;fontColor=#000000;" vertex="1" parent="rFD2wN1z_Jku8epYGn0b-6">
-          <mxGeometry x="15" y="70" width="150" height="30" as="geometry" />
+        <mxCell id="5MiPELnv2hCGfSATgIlV-4" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;Nginx plugin 生成TraceId&lt;br&gt;并且打印到access.log中&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;fontColor=#000000;" vertex="1" parent="5MiPELnv2hCGfSATgIlV-3">
+          <mxGeometry x="15" y="60" width="160" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="rFD2wN1z_Jku8epYGn0b-24" value="Entity" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;labelBackgroundColor=#FFFFFF;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="-510" y="250" width="160" height="120" as="geometry" />
+        <mxCell id="5MiPELnv2hCGfSATgIlV-8" value="Envoy" style="swimlane;labelBackgroundColor=#FFFFFF;fontSize=14;fontColor=#000000;strokeWidth=1;startSize=60;arcSize=10;" vertex="1" parent="1">
+          <mxGeometry x="-730" y="430" width="200" height="110" as="geometry">
+            <mxRectangle x="-380" y="250" width="80" height="60" as="alternateBounds" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="rFD2wN1z_Jku8epYGn0b-25" value="+Attribute1&#xa;+Attribute2&#xa;+Attribute3" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;labelBackgroundColor=#FFFFFF;fontColor=#000000;" vertex="1" parent="rFD2wN1z_Jku8epYGn0b-24">
-          <mxGeometry y="30" width="160" height="90" as="geometry" />
+        <mxCell id="5MiPELnv2hCGfSATgIlV-9" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;Envoy plugin 生成TraceId&lt;br&gt;并且打印到access.log中&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;fontColor=#000000;" vertex="1" parent="5MiPELnv2hCGfSATgIlV-8">
+          <mxGeometry x="15" y="60" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="5MiPELnv2hCGfSATgIlV-17" value="客户端" style="swimlane;labelBackgroundColor=#FFFFFF;fontSize=14;fontColor=#000000;strokeWidth=1;startSize=60;arcSize=100;" vertex="1" parent="1">
+          <mxGeometry x="-730" y="80" width="200" height="110" as="geometry">
+            <mxRectangle x="-380" y="250" width="80" height="60" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5MiPELnv2hCGfSATgIlV-18" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;业务代码生成TraceId&lt;br&gt;并且打印到业务日志中&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;fontColor=#000000;" vertex="1" parent="5MiPELnv2hCGfSATgIlV-17">
+          <mxGeometry x="25" y="60" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="O_wc0taO5TnkPQcXHn0N-1" value="应用开始启动" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;fontSize=12;fontColor=#000000;strokeWidth=1;imageHeight=24;arcSize=30;" vertex="1" parent="1">
+          <mxGeometry x="-287" y="70" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cqFBRa8fIfP_xZHRqJaP-1" value="开始启动&lt;br&gt;Pinpoint agent" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;fontSize=12;fontColor=#000000;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="-177" y="70" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cqFBRa8fIfP_xZHRqJaP-2" value="日志格式中包括TraceId" style="rhombus;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;fontSize=12;fontColor=#000000;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="-270" y="140" width="160" height="57.5" as="geometry" />
+        </mxCell>
+        <mxCell id="cqFBRa8fIfP_xZHRqJaP-4" value="日志格式中添加TraceId" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;fontSize=12;fontColor=#000000;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="-290" y="240" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cqFBRa8fIfP_xZHRqJaP-7" value="应用启动完成" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;fontSize=12;fontColor=#000000;strokeWidth=1;imageHeight=24;arcSize=30;" vertex="1" parent="1">
+          <mxGeometry x="-177" y="240" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cqFBRa8fIfP_xZHRqJaP-8" value="收到外部请求" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;fontSize=12;fontColor=#000000;strokeWidth=1;imageHeight=24;arcSize=30;" vertex="1" parent="1">
+          <mxGeometry x="-230" y="320" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cqFBRa8fIfP_xZHRqJaP-9" value="读取外部TraceId" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;fontSize=12;fontColor=#000000;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="-230" y="390" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cqFBRa8fIfP_xZHRqJaP-10" value="" style="endArrow=none;html=1;rounded=0;fontSize=12;fontColor=#000000;jumpStyle=arc;jumpSize=12;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-390" y="300" as="sourcePoint" />
+            <mxPoint x="-10" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cqFBRa8fIfP_xZHRqJaP-11" value="计算本次是否名字抽样" style="rhombus;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;fontSize=12;fontColor=#000000;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="-270" y="460" width="160" height="57.5" as="geometry" />
+        </mxCell>
+        <mxCell id="cqFBRa8fIfP_xZHRqJaP-12" value="Pinpoint TraceId" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;fontSize=12;fontColor=#000000;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="-290" y="550" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cqFBRa8fIfP_xZHRqJaP-13" value="Supplement TraceId" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;fontSize=12;fontColor=#000000;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="-180" y="550" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cqFBRa8fIfP_xZHRqJaP-14" value="下游服务" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;fontSize=12;fontColor=#000000;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="300" width="190" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="cqFBRa8fIfP_xZHRqJaP-16" value="" style="endArrow=none;html=1;rounded=0;fontSize=12;fontColor=#000000;jumpStyle=arc;jumpSize=12;entryX=0.25;entryY=0;entryDx=0;entryDy=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="cqFBRa8fIfP_xZHRqJaP-14" target="cqFBRa8fIfP_xZHRqJaP-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="80" y="380" as="sourcePoint" />
+            <mxPoint x="130" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cqFBRa8fIfP_xZHRqJaP-17" value="&lt;font face=&quot;Verdana&quot;&gt;PP agnet&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#FFFFFF;fontSize=12;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="150" y="305" width="40" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
