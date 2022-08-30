@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-29T13:53:12.819Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="OYLnv8ikcVJXlkzYCevF" version="20.2.7" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2022-08-30T02:48:18.637Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="gtLZmDsd9hRoTjwJmHfi" version="20.2.7" type="github" pages="8">
   <diagram id="SZeqILC4WRQRvYrKo_g2" name="灵犀架构图">
     <mxGraphModel dx="946" dy="613" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -156,7 +156,7 @@
         <mxCell id="z96YX2Z_3esr8ZKRBaH9-95" value="业务网关" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;fillStyle=auto;shadow=0;glass=0;sketch=0;fontSize=14;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="541.75" y="118.55" width="90" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="z96YX2Z_3esr8ZKRBaH9-98" value="Pinpoint" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;fillStyle=auto;shadow=0;glass=0;sketch=0;fontSize=14;" parent="1" vertex="1">
+        <mxCell id="z96YX2Z_3esr8ZKRBaH9-98" value="Pinpoint" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;fillStyle=auto;shadow=0;glass=0;sketch=0;fontSize=14;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="726.25" y="180" width="77.5" height="40" as="geometry" />
         </mxCell>
         <mxCell id="z96YX2Z_3esr8ZKRBaH9-101" value="Eagle" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;fillStyle=auto;shadow=0;glass=0;sketch=0;fontSize=14;fillColor=#dae8fc;gradientColor=#7ea6e0;strokeColor=#6c8ebf;" parent="1" vertex="1">
@@ -213,14 +213,14 @@
         <mxCell id="P1oTxDfYXLuIh1gySndn-15" value="" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=0;fillStyle=auto;fontSize=14;fillColor=#f8cecc;strokeColor=#b85450;gradientColor=#ea6b66;" parent="1" vertex="1">
           <mxGeometry x="60" y="576" width="40" height="17" as="geometry" />
         </mxCell>
-        <mxCell id="P1oTxDfYXLuIh1gySndn-16" value="红色块表示独立开发&amp;amp;维护" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;" parent="1" vertex="1">
-          <mxGeometry x="110" y="570" width="160" height="30" as="geometry" />
+        <mxCell id="P1oTxDfYXLuIh1gySndn-16" value="红色块表示项目Owner" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="101.5" y="570" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="P1oTxDfYXLuIh1gySndn-20" value="" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=0;fillStyle=auto;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;gradientColor=#7ea6e0;" parent="1" vertex="1">
-          <mxGeometry x="321.75" y="576" width="40" height="17" as="geometry" />
+          <mxGeometry x="280" y="576" width="40" height="17" as="geometry" />
         </mxCell>
-        <mxCell id="P1oTxDfYXLuIh1gySndn-21" value="蓝色块表示参与开发&amp;amp;维护" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;" parent="1" vertex="1">
-          <mxGeometry x="371.75" y="570" width="160" height="30" as="geometry" />
+        <mxCell id="P1oTxDfYXLuIh1gySndn-21" value="蓝色块表示主要参与者" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="320" y="570" width="140" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
