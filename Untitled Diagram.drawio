@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-31T03:10:36.649Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="tDG3baAR3REjgusvD4jT" version="20.2.7" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2022-08-31T03:14:09.526Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="N4-1FBSqbViFLRmcoFqj" version="20.2.7" type="github" pages="10">
   <diagram id="SZeqILC4WRQRvYrKo_g2" name="灵犀架构图">
     <mxGraphModel dx="946" dy="613" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -403,7 +403,7 @@
         <mxCell id="G3c53vHmWJw8n_zm82lY-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpStyle=arc;jumpSize=60;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=15;fontColor=#333333;" parent="1" source="E3o0pCZBdWymGe8HAtfz-22" target="E3o0pCZBdWymGe8HAtfz-21" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="E3o0pCZBdWymGe8HAtfz-22" value="收到请求" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=15;strokeWidth=1;imageHeight=24;arcSize=30;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+        <mxCell id="E3o0pCZBdWymGe8HAtfz-22" value="收到请求" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=15;strokeWidth=1;imageHeight=24;arcSize=30;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="-780" y="590" width="110" height="55" as="geometry" />
         </mxCell>
         <mxCell id="E3o0pCZBdWymGe8HAtfz-25" value="&lt;b style=&quot;font-size: 20px; text-align: center;&quot;&gt;&lt;font color=&quot;#ff3333&quot;&gt;Pinpoint Agent 改造&lt;/font&gt;&lt;/b&gt;&lt;h1 style=&quot;font-size: 20px;&quot;&gt;&lt;span style=&quot;font-size: 16px; font-weight: 400; text-align: center;&quot;&gt;通过对Pinpoint Agent 核心模块的改造，使Pinpoint支持接收外部TraceId&lt;/span&gt;&lt;br&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;dashed=1;fontSize=15;" parent="1" vertex="1">
@@ -439,7 +439,7 @@
         <mxCell id="E3o0pCZBdWymGe8HAtfz-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;" parent="1" source="E3o0pCZBdWymGe8HAtfz-48" target="E3o0pCZBdWymGe8HAtfz-54" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="E3o0pCZBdWymGe8HAtfz-48" value="收到请求" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=15;strokeWidth=1;imageHeight=24;arcSize=30;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+        <mxCell id="E3o0pCZBdWymGe8HAtfz-48" value="收到请求" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=15;strokeWidth=1;imageHeight=24;arcSize=30;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="-352.5" y="585" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="E3o0pCZBdWymGe8HAtfz-49" value="OKHttp" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
@@ -475,7 +475,7 @@
         <mxCell id="E3o0pCZBdWymGe8HAtfz-68" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=20;fontColor=#FF3333;" parent="1" source="E3o0pCZBdWymGe8HAtfz-67" target="E3o0pCZBdWymGe8HAtfz-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="E3o0pCZBdWymGe8HAtfz-67" value="收到请求" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=15;strokeWidth=1;imageHeight=24;arcSize=30;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+        <mxCell id="E3o0pCZBdWymGe8HAtfz-67" value="收到请求" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=15;strokeWidth=1;imageHeight=24;arcSize=30;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="-1115" y="590" width="110" height="55" as="geometry" />
         </mxCell>
         <mxCell id="E3o0pCZBdWymGe8HAtfz-69" value="TraceId添加到请求头中" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=15;strokeWidth=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
@@ -717,7 +717,7 @@
             <mxPoint x="1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="jJW8bxdhx42Ozo43UAaJ-18" value="日志Pattern中包括TraceId" style="rhombus;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=14;strokeWidth=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="NAIJ-_KZdzraQOcEreJz-1" vertex="1">
+        <mxCell id="jJW8bxdhx42Ozo43UAaJ-18" value="日志Pattern中包括TraceId" style="rhombus;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=14;strokeWidth=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="NAIJ-_KZdzraQOcEreJz-1" vertex="1">
           <mxGeometry x="-645" y="270" width="205" height="70" as="geometry" />
         </mxCell>
         <mxCell id="jJW8bxdhx42Ozo43UAaJ-19" value="继续启动应用" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=14;strokeWidth=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="NAIJ-_KZdzraQOcEreJz-1" vertex="1">
@@ -743,7 +743,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="监控体系建设" id="_XFI3-4MOiX7_pdGf6By">
-    <mxGraphModel dx="3109" dy="943" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3231" dy="1022" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="K501k2DoAl_qs4nxN3xM-0" />
         <mxCell id="K501k2DoAl_qs4nxN3xM-1" parent="K501k2DoAl_qs4nxN3xM-0" />
@@ -1472,7 +1472,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="eW5r8dSrhWy14jEMaYQZ" name="网关限流">
-    <mxGraphModel dx="1113" dy="721" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1351" dy="876" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
