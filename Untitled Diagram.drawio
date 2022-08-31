@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-31T03:14:09.526Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="N4-1FBSqbViFLRmcoFqj" version="20.2.7" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2022-08-31T06:15:48.294Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="CXetI7tQ8ELkakpjLU4c" version="20.2.7" type="github" pages="10">
   <diagram id="SZeqILC4WRQRvYrKo_g2" name="灵犀架构图">
     <mxGraphModel dx="946" dy="613" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -6,9 +6,6 @@
         <mxCell id="1" parent="0" />
         <mxCell id="z96YX2Z_3esr8ZKRBaH9-15" value="" style="rounded=1;whiteSpace=wrap;html=1;arcSize=2;fillStyle=auto;shadow=0;glass=0;sketch=0;fillColor=#b0e3e6;strokeColor=#0e8088;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="140" y="80" width="560" height="110" as="geometry" />
-        </mxCell>
-        <mxCell id="z96YX2Z_3esr8ZKRBaH9-46" value="" style="rounded=1;whiteSpace=wrap;html=1;arcSize=2;fillStyle=auto;shadow=0;glass=0;sketch=0;dashed=1;strokeWidth=1;fillColor=#f9f7ed;strokeColor=#36393d;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="156.5" y="99.75" width="514" height="77.6" as="geometry" />
         </mxCell>
         <mxCell id="z96YX2Z_3esr8ZKRBaH9-7" value="" style="rounded=1;whiteSpace=wrap;html=1;perimeterSpacing=10;imageWidth=24;imageHeight=24;arcSize=5;fillColor=#b0e3e6;strokeColor=#0e8088;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="60" y="80" width="70" height="110" as="geometry" />
