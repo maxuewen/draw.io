@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-31T03:05:25.916Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="RNaEnHVybtbJf1_NxRAT" version="20.2.7" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2022-08-31T03:08:08.912Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="fMs8ivRNQCiExXDQIJ_f" version="20.2.7" type="github" pages="10">
   <diagram id="SZeqILC4WRQRvYrKo_g2" name="灵犀架构图">
     <mxGraphModel dx="946" dy="613" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1477,13 +1477,13 @@
         <mxCell id="9LM25osLHNdridZjJX_H-19" style="edgeStyle=elbowEdgeStyle;rounded=0;jumpStyle=arc;jumpSize=12;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Verdana;fontSize=14;fontColor=#000000;labelBackgroundColor=none;" parent="1" source="9LM25osLHNdridZjJX_H-14" target="9LM25osLHNdridZjJX_H-11" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9LM25osLHNdridZjJX_H-14" value="" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontFamily=Verdana;fontSize=14;strokeWidth=1;dashed=1;imageHeight=24;arcSize=5;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+        <mxCell id="9LM25osLHNdridZjJX_H-14" value="" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontFamily=Verdana;fontSize=14;strokeWidth=1;dashed=1;imageHeight=24;arcSize=5;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="220" y="360" width="320" height="200" as="geometry" />
         </mxCell>
         <mxCell id="9LM25osLHNdridZjJX_H-16" value="" style="edgeStyle=elbowEdgeStyle;rounded=0;jumpStyle=arc;jumpSize=12;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Verdana;fontSize=14;fontColor=#000000;labelBackgroundColor=none;" parent="1" source="9LM25osLHNdridZjJX_H-1" target="9LM25osLHNdridZjJX_H-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9LM25osLHNdridZjJX_H-1" value="收到请求" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontFamily=Verdana;fontSize=14;fontColor=#333333;strokeWidth=1;fillColor=#f5f5f5;strokeColor=#666666;" parent="1" vertex="1">
+        <mxCell id="9LM25osLHNdridZjJX_H-1" value="收到请求" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontFamily=Verdana;fontSize=14;strokeWidth=1;" parent="1" vertex="1">
           <mxGeometry x="320" y="70" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="9LM25osLHNdridZjJX_H-17" value="" style="edgeStyle=elbowEdgeStyle;rounded=0;jumpStyle=arc;jumpSize=12;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Verdana;fontSize=14;fontColor=#000000;labelBackgroundColor=none;" parent="1" source="9LM25osLHNdridZjJX_H-3" target="9LM25osLHNdridZjJX_H-10" edge="1">
@@ -1493,28 +1493,28 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="9LM25osLHNdridZjJX_H-3" value="计算用于限流的Key" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontFamily=Verdana;fontSize=14;fontColor=#333333;strokeWidth=1;arcSize=0;fillColor=#f5f5f5;strokeColor=#666666;" parent="1" vertex="1">
+        <mxCell id="9LM25osLHNdridZjJX_H-3" value="计算用于限流的Key" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontFamily=Verdana;fontSize=14;strokeWidth=1;arcSize=0;" parent="1" vertex="1">
           <mxGeometry x="320" y="170" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="9LM25osLHNdridZjJX_H-24" value="" style="edgeStyle=elbowEdgeStyle;rounded=0;jumpStyle=arc;jumpSize=12;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Verdana;fontSize=14;fontColor=#000000;labelBackgroundColor=none;" parent="1" source="9LM25osLHNdridZjJX_H-5" target="9LM25osLHNdridZjJX_H-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9LM25osLHNdridZjJX_H-5" value="读取当前key的令牌桶数据" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontFamily=Verdana;fontSize=14;strokeWidth=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+        <mxCell id="9LM25osLHNdridZjJX_H-5" value="读取当前key的令牌桶数据" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontFamily=Verdana;fontSize=14;strokeWidth=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="240" y="410" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="9LM25osLHNdridZjJX_H-25" style="edgeStyle=elbowEdgeStyle;rounded=0;jumpStyle=arc;jumpSize=12;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Verdana;fontSize=14;fontColor=#000000;labelBackgroundColor=none;" parent="1" source="9LM25osLHNdridZjJX_H-6" target="9LM25osLHNdridZjJX_H-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9LM25osLHNdridZjJX_H-6" value="计算本次请求是否被限流" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontFamily=Verdana;fontSize=14;strokeWidth=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+        <mxCell id="9LM25osLHNdridZjJX_H-6" value="计算本次请求是否被限流" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontFamily=Verdana;fontSize=14;strokeWidth=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="400" y="410" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="9LM25osLHNdridZjJX_H-7" value="返回限流计算结果" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontFamily=Verdana;fontSize=14;strokeWidth=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+        <mxCell id="9LM25osLHNdridZjJX_H-7" value="返回限流计算结果" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontFamily=Verdana;fontSize=14;strokeWidth=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="240" y="490" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="9LM25osLHNdridZjJX_H-26" style="edgeStyle=elbowEdgeStyle;rounded=0;jumpStyle=arc;jumpSize=12;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Verdana;fontSize=14;fontColor=#000000;labelBackgroundColor=none;" parent="1" source="9LM25osLHNdridZjJX_H-9" target="9LM25osLHNdridZjJX_H-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9LM25osLHNdridZjJX_H-9" value="更新令牌桶" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontFamily=Verdana;fontSize=14;strokeWidth=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+        <mxCell id="9LM25osLHNdridZjJX_H-9" value="更新令牌桶" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontFamily=Verdana;fontSize=14;strokeWidth=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="400" y="490" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="9LM25osLHNdridZjJX_H-18" value="" style="edgeStyle=elbowEdgeStyle;rounded=0;jumpStyle=arc;jumpSize=12;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Verdana;fontSize=14;fontColor=#000000;labelBackgroundColor=none;" parent="1" source="9LM25osLHNdridZjJX_H-10" edge="1">
@@ -1522,7 +1522,7 @@
             <mxPoint x="380" y="360" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9LM25osLHNdridZjJX_H-10" value="读取限流配置" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontFamily=Verdana;fontSize=14;fontColor=#333333;strokeWidth=1;imageHeight=24;arcSize=0;fillColor=#f5f5f5;strokeColor=#666666;" parent="1" vertex="1">
+        <mxCell id="9LM25osLHNdridZjJX_H-10" value="读取限流配置" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontFamily=Verdana;fontSize=14;strokeWidth=1;imageHeight=24;arcSize=0;" parent="1" vertex="1">
           <mxGeometry x="320" y="270" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="9LM25osLHNdridZjJX_H-20" style="edgeStyle=elbowEdgeStyle;rounded=0;jumpStyle=arc;jumpSize=12;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Verdana;fontSize=14;fontColor=#000000;labelBackgroundColor=none;" parent="1" source="9LM25osLHNdridZjJX_H-11" target="9LM25osLHNdridZjJX_H-12" edge="1">
@@ -1549,13 +1549,13 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9LM25osLHNdridZjJX_H-11" value="是否被限流？" style="rhombus;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontFamily=Verdana;fontSize=14;fontColor=#333333;strokeWidth=1;fillColor=#f5f5f5;strokeColor=#666666;" parent="1" vertex="1">
+        <mxCell id="9LM25osLHNdridZjJX_H-11" value="是否被限流？" style="rhombus;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontFamily=Verdana;fontSize=14;strokeWidth=1;" parent="1" vertex="1">
           <mxGeometry x="320" y="600" width="120" height="65" as="geometry" />
         </mxCell>
-        <mxCell id="9LM25osLHNdridZjJX_H-12" value="请求限制&lt;br style=&quot;font-size: 14px;&quot;&gt;返回429错误码" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontFamily=Verdana;fontSize=14;fontColor=#333333;strokeWidth=1;fillColor=#f5f5f5;strokeColor=#666666;" parent="1" vertex="1">
+        <mxCell id="9LM25osLHNdridZjJX_H-12" value="请求限制&lt;br style=&quot;font-size: 14px;&quot;&gt;返回429错误码" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontFamily=Verdana;fontSize=14;strokeWidth=1;" parent="1" vertex="1">
           <mxGeometry x="240" y="710" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="9LM25osLHNdridZjJX_H-13" value="请求放行" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontFamily=Verdana;fontSize=14;fontColor=#333333;strokeWidth=1;fillColor=#f5f5f5;strokeColor=#666666;" parent="1" vertex="1">
+        <mxCell id="9LM25osLHNdridZjJX_H-13" value="请求放行" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontFamily=Verdana;fontSize=14;strokeWidth=1;" parent="1" vertex="1">
           <mxGeometry x="400" y="710" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="9LM25osLHNdridZjJX_H-15" value="Redis/Lua" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;labelBackgroundColor=none;fontFamily=Verdana;fontSize=14;fontColor=#000000;" parent="1" vertex="1">
