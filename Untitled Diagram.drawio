@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-04T11:29:27.466Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="HWek33VngrVTl2_M-Pcl" version="20.2.7" type="github" pages="11">
+<mxfile host="app.diagrams.net" modified="2022-09-04T11:30:44.074Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="R0lf_MNxV48fOZKoid3M" version="20.2.7" type="github" pages="11">
   <diagram id="SZeqILC4WRQRvYrKo_g2" name="灵犀架构图">
     <mxGraphModel dx="946" dy="613" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1640,7 +1640,7 @@
         <mxCell id="td_IIDe3kHVuBpg9YdcV-143" value="&lt;span style=&quot;font-family: Verdana; font-size: 15px;&quot;&gt;Oxpecker-web&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="2910" y="624" width="130" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="td_IIDe3kHVuBpg9YdcV-149" value="&lt;font color=&quot;#333333&quot; style=&quot;font-size: 15px;&quot;&gt;数据存储、Hubble数据Merge、数据库调研部分由我完成&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;fontColor=#000000;" vertex="1" parent="1">
+        <mxCell id="td_IIDe3kHVuBpg9YdcV-149" value="&lt;span style=&quot;color: rgb(51, 51, 51);&quot;&gt;Hubble数据Merge、&lt;/span&gt;&lt;font color=&quot;#333333&quot; style=&quot;font-size: 15px;&quot;&gt;数据存储、数据库调研部分由我完成&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="2210" y="990" width="400" height="30" as="geometry" />
         </mxCell>
       </root>
