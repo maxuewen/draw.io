@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-06T08:43:23.819Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="sJ77TTkCZTxCscM0QBki" version="20.2.8" type="github" pages="12">
+<mxfile host="app.diagrams.net" modified="2022-09-06T08:51:44.466Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="qfL3WKQFNl8PjK1AFZr4" version="20.2.8" type="github" pages="12">
   <diagram id="SZeqILC4WRQRvYrKo_g2" name="灵犀架构图">
     <mxGraphModel dx="946" dy="557" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1841,7 +1841,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="eW5r8dSrhWy14jEMaYQZ" name="网关限流">
-    <mxGraphModel dx="1577" dy="1023" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1351" dy="796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1936,7 +1936,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="DVWe6tdBilxbegL1IuR2" name="网关熔断1">
-    <mxGraphModel dx="946" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="946" dy="557" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1976,7 +1976,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="网关熔断" id="RjKV1A83t65AG0H8VRan">
-    <mxGraphModel dx="1720" dy="1116" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1892" dy="1114" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="3AJOiWdpZd6cLleUtym3-0" />
         <mxCell id="3AJOiWdpZd6cLleUtym3-1" parent="3AJOiWdpZd6cLleUtym3-0" />
@@ -2071,6 +2071,9 @@
         </mxCell>
         <mxCell id="FIBUG_45gZKKQ1AosOfi-24" value="从缓存中读取熔断器" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontFamily=Verdana;fontSize=14;strokeWidth=1;arcSize=0;" parent="3AJOiWdpZd6cLleUtym3-1" vertex="1">
           <mxGeometry x="260" y="660" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yDnWK6f-ppcghs39TNU7-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.532;entryY=1.05;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=2;" edge="1" parent="3AJOiWdpZd6cLleUtym3-1" source="FIBUG_45gZKKQ1AosOfi-26" target="FIBUG_45gZKKQ1AosOfi-0">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="FIBUG_45gZKKQ1AosOfi-26" value="Request" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontFamily=Verdana;fontSize=14;strokeWidth=1;" parent="3AJOiWdpZd6cLleUtym3-1" vertex="1">
           <mxGeometry x="198.75" y="290" width="442.5" height="50" as="geometry" />
