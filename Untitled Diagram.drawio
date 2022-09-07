@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-09-07T06:09:31.204Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="LwmoO2xIk0KowRNk0Jcd" version="20.2.8" type="github" pages="12">
+<mxfile host="app.diagrams.net" modified="2022-09-07T14:58:15.790Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="6LijQSxLBNft08_2luNP" version="20.2.7" type="github" pages="12">
   <diagram id="SZeqILC4WRQRvYrKo_g2" name="灵犀架构图">
-    <mxGraphModel dx="946" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="946" dy="613" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -222,7 +222,7 @@
         <mxCell id="DgnOEZXZM4A-AyKVx1tJ-2" value="&lt;font color=&quot;#333333&quot;&gt;后续PPT中同理&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;" parent="1" vertex="1">
           <mxGeometry x="480" y="560" width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="eE7G6gB604jvp8yOhwGN-1" value="Hubble" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;fillStyle=auto;shadow=0;glass=0;sketch=0;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="eE7G6gB604jvp8yOhwGN-1" value="Hubble" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;fillStyle=auto;shadow=0;glass=0;sketch=0;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="726.25" y="410" width="77.5" height="40" as="geometry" />
         </mxCell>
       </root>
@@ -552,11 +552,11 @@
     </mxGraphModel>
   </diagram>
   <diagram name="pp 灰度发布" id="8IkTOImdJiD9HTUCisOW">
-    <mxGraphModel dx="946" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="946" dy="613" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="SO_OImw--93dIAqpS16e-0" />
         <mxCell id="SO_OImw--93dIAqpS16e-1" parent="SO_OImw--93dIAqpS16e-0" />
-        <mxCell id="kM28ntPusrWBENWSCoHf-0" value="" style="rounded=0;whiteSpace=wrap;html=1;glass=1;strokeWidth=0;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="SO_OImw--93dIAqpS16e-1" vertex="1">
+        <mxCell id="f1BvNBd13hNj32g-yAli-1" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fad9d5;strokeColor=#ae4132;arcSize=2;" vertex="1" parent="SO_OImw--93dIAqpS16e-1">
           <mxGeometry x="150" y="110" width="530" height="200" as="geometry" />
         </mxCell>
         <mxCell id="8Gu_tK78dyaG0WrKprle-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;fontFamily=Verdana;fontSize=14;fontColor=#333333;startArrow=none;startFill=0;" parent="SO_OImw--93dIAqpS16e-1" source="8Gu_tK78dyaG0WrKprle-14" target="8Gu_tK78dyaG0WrKprle-15" edge="1">
@@ -792,7 +792,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="eagle全链路日志原理" id="c3emXqdPfj2bVsjmP5zk">
-    <mxGraphModel dx="1773" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1773" dy="613" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="NAIJ-_KZdzraQOcEreJz-0" />
         <mxCell id="NAIJ-_KZdzraQOcEreJz-1" parent="NAIJ-_KZdzraQOcEreJz-0" />
@@ -844,7 +844,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="监控体系建设" id="_XFI3-4MOiX7_pdGf6By">
-    <mxGraphModel dx="2600" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3374" dy="1115" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="K501k2DoAl_qs4nxN3xM-0" />
         <mxCell id="K501k2DoAl_qs4nxN3xM-1" parent="K501k2DoAl_qs4nxN3xM-0" />
@@ -1117,7 +1117,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="自定义字段" id="KHGET1XYXo4wtjpobPX5">
-    <mxGraphModel dx="946" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="946" dy="613" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="t7L6NqI9AV4355d1ItY_-0" />
         <mxCell id="t7L6NqI9AV4355d1ItY_-1" parent="t7L6NqI9AV4355d1ItY_-0" />
