@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-07T02:22:43.228Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="kISqJspq99ZnuCP_rnsa" version="20.2.8" type="github" pages="12">
+<mxfile host="app.diagrams.net" modified="2022-09-07T02:28:18.379Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="Eq9lpIR8vh0kUYf0u6sn" version="20.2.8" type="github" pages="12">
   <diagram id="SZeqILC4WRQRvYrKo_g2" name="灵犀架构图">
     <mxGraphModel dx="946" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1367,24 +1367,22 @@
         <mxCell id="C4hprpsmrjFJ4n2raPfl-17" value="HBase" style="whiteSpace=wrap;html=1;rounded=1;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="273" y="530" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="JpRz-c9aTU3CN5bPfdMy-72" style="edgeStyle=elbowEdgeStyle;rounded=0;jumpStyle=arc;jumpSize=12;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="C4hprpsmrjFJ4n2raPfl-23" edge="1">
+        <mxCell id="JpRz-c9aTU3CN5bPfdMy-72" style="edgeStyle=elbowEdgeStyle;rounded=0;jumpStyle=arc;jumpSize=12;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-459" y="680" as="targetPoint" />
+            <mxPoint x="-450" y="680" as="targetPoint" />
+            <mxPoint x="-450" y="590" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="JpRz-c9aTU3CN5bPfdMy-86" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;Metrics&lt;/b&gt;&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#FFFFFF;fontColor=#000000;fontSize=12;" parent="JpRz-c9aTU3CN5bPfdMy-72" vertex="1" connectable="0">
           <mxGeometry x="0.0958" y="4" relative="1" as="geometry">
-            <mxPoint x="-4" as="offset" />
+            <mxPoint x="-2" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="C4hprpsmrjFJ4n2raPfl-23" value="Prometheus" style="whiteSpace=wrap;html=1;rounded=1;fontSize=16;" parent="1" vertex="1">
-          <mxGeometry x="-518.62" y="530" width="120" height="60" as="geometry" />
+          <mxGeometry x="-508.62" y="530" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="C4hprpsmrjFJ4n2raPfl-28" value="Redis" style="whiteSpace=wrap;html=1;rounded=1;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="121.37" y="530" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="C4hprpsmrjFJ4n2raPfl-35" value="网关监控" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;gradientColor=#97d077;fontSize=16;arcSize=12;" parent="1" vertex="1">
-          <mxGeometry x="-592" y="705" width="105" height="50" as="geometry" />
         </mxCell>
         <mxCell id="6S40UeyELgvFpQEIoVue-4" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Envoy&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="-343.5" y="160" width="120" height="40" as="geometry" />
@@ -1461,7 +1459,7 @@
             <mxPoint x="-547" y="480" as="targetPoint" />
             <Array as="points">
               <mxPoint x="-369" y="490" />
-              <mxPoint x="-459" y="490" />
+              <mxPoint x="-449" y="490" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -1470,20 +1468,14 @@
             <mxPoint y="-1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="JpRz-c9aTU3CN5bPfdMy-64" value="其他监控" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;gradientColor=#97d077;fontSize=16;" parent="1" vertex="1">
-          <mxGeometry x="-483.62" y="705" width="105" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="JpRz-c9aTU3CN5bPfdMy-65" value="埋点分析" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;gradientColor=#97d077;fontSize=16;" parent="1" vertex="1">
-          <mxGeometry x="-374.5" y="705" width="105" height="50" as="geometry" />
-        </mxCell>
         <mxCell id="JpRz-c9aTU3CN5bPfdMy-66" value="网关日志" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;gradientColor=#97d077;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="-239.5" y="705" width="105" height="50" as="geometry" />
         </mxCell>
         <mxCell id="JpRz-c9aTU3CN5bPfdMy-67" value="应用日志" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;gradientColor=#97d077;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="-129.5" y="705" width="105" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="JpRz-c9aTU3CN5bPfdMy-68" value="全链路分析" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;gradientColor=#97d077;fontSize=16;" parent="1" vertex="1">
-          <mxGeometry x="135.5" y="705" width="105" height="50" as="geometry" />
+        <mxCell id="JpRz-c9aTU3CN5bPfdMy-68" value="其他监控" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;gradientColor=#97d077;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="-501.1199999999999" y="705" width="105" height="50" as="geometry" />
         </mxCell>
         <mxCell id="JpRz-c9aTU3CN5bPfdMy-75" value="" style="edgeStyle=elbowEdgeStyle;rounded=0;jumpStyle=arc;jumpSize=12;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="JpRz-c9aTU3CN5bPfdMy-73" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -1516,6 +1508,21 @@
         </mxCell>
         <mxCell id="vxDk_KuxnwlmqUi_zyYI-1" value="" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;labelBackgroundColor=#FFFFFF;fontSize=14;fontColor=#000000;strokeWidth=1;" parent="1" vertex="1">
           <mxGeometry x="-557" y="117.5" width="52" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="uaGpooUudQRgeNSILkh4-1" value="埋点分析" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;gradientColor=#97d077;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-391.1199999999999" y="705" width="105" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="uaGpooUudQRgeNSILkh4-2" value="网关监控" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;gradientColor=#97d077;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-611.1199999999999" y="705" width="105" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="uaGpooUudQRgeNSILkh4-3" value="接口链路" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;gradientColor=#97d077;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="135.5" y="705" width="105" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="uaGpooUudQRgeNSILkh4-4" value="Span统计" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;gradientColor=#97d077;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="245.5" y="705" width="105" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="uaGpooUudQRgeNSILkh4-5" value="应用链路" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;gradientColor=#97d077;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="25.5" y="705" width="105" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
