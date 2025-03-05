@@ -1,9 +1,81 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.0.16">
-  <diagram name="Page-1" id="m1RzfB53gsGUFGCDDffP">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.0.16" pages="3">
+  <diagram name="数据写入方案一" id="m1RzfB53gsGUFGCDDffP">
     <mxGraphModel dx="1434" dy="819" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="XD_6pC059Wmc6C2DpEs6-13" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="39" y="230" width="290" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="XD_6pC059Wmc6C2DpEs6-2" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="44" y="40" width="290" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="XD_6pC059Wmc6C2DpEs6-4" value="Kafka" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="129" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XD_6pC059Wmc6C2DpEs6-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="XD_6pC059Wmc6C2DpEs6-5" target="XD_6pC059Wmc6C2DpEs6-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XD_6pC059Wmc6C2DpEs6-5" value="容器应用" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="54" y="60" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XD_6pC059Wmc6C2DpEs6-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="XD_6pC059Wmc6C2DpEs6-6" target="XD_6pC059Wmc6C2DpEs6-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XD_6pC059Wmc6C2DpEs6-6" value="本地文件" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="149" y="60" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XD_6pC059Wmc6C2DpEs6-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;" edge="1" parent="1" source="XD_6pC059Wmc6C2DpEs6-7" target="XD_6pC059Wmc6C2DpEs6-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XD_6pC059Wmc6C2DpEs6-7" value="Loggie" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="249" y="60" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XD_6pC059Wmc6C2DpEs6-9" value="Doris" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="129" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XD_6pC059Wmc6C2DpEs6-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XD_6pC059Wmc6C2DpEs6-10" target="XD_6pC059Wmc6C2DpEs6-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XD_6pC059Wmc6C2DpEs6-10" value="赞批" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="79" y="249.5" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XD_6pC059Wmc6C2DpEs6-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;" edge="1" parent="1" source="XD_6pC059Wmc6C2DpEs6-11" target="XD_6pC059Wmc6C2DpEs6-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XD_6pC059Wmc6C2DpEs6-24" value="HTTP (Streaml&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;oader)&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="XD_6pC059Wmc6C2DpEs6-23">
+          <mxGeometry x="-0.0887" y="-2" relative="1" as="geometry">
+            <mxPoint y="12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XD_6pC059Wmc6C2DpEs6-11" value="批量发送" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="219" y="249.5" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XD_6pC059Wmc6C2DpEs6-14" value="集群宿主机" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="334" y="60" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XD_6pC059Wmc6C2DpEs6-15" value="Logstash" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="339" y="249.5" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XD_6pC059Wmc6C2DpEs6-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0.35;entryDx=0;entryDy=0;entryPerimeter=0;curved=1;" edge="1" parent="1" source="XD_6pC059Wmc6C2DpEs6-4" target="XD_6pC059Wmc6C2DpEs6-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="数据写入方案二" id="BodeHpj7YnWLLkHoDva8">
+    <mxGraphModel dx="1434" dy="819" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="Fqjwemuar2yoj4iI6l3p-0" />
+        <mxCell id="Fqjwemuar2yoj4iI6l3p-1" parent="Fqjwemuar2yoj4iI6l3p-0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="数据写入方案三" id="dfCHAVxReUgvlcxRjca_">
+    <mxGraphModel dx="1434" dy="819" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0-fxEheydLTSLFfFPdqd-0" />
+        <mxCell id="0-fxEheydLTSLFfFPdqd-1" parent="0-fxEheydLTSLFfFPdqd-0" />
       </root>
     </mxGraphModel>
   </diagram>
