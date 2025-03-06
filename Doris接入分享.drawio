@@ -82,7 +82,7 @@
             <mxPoint x="460" y="530" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="FX79hQSfBcaowxQwJwy3-0" value="&lt;b&gt;HTTP (Streaml&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;oader)&lt;/span&gt;&lt;/b&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Fqjwemuar2yoj4iI6l3p-1" target="fxcYr_ssBRMyKJwQaDaq-28">
+        <mxCell id="FX79hQSfBcaowxQwJwy3-0" value="&lt;b&gt;HTTP 同步发送(Streaml&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;oader)&lt;/span&gt;&lt;/b&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Fqjwemuar2yoj4iI6l3p-1" target="fxcYr_ssBRMyKJwQaDaq-28">
           <mxGeometry x="0.0606" y="1" relative="1" as="geometry">
             <mxPoint x="240" y="472" as="sourcePoint" />
             <mxPoint as="offset" />
@@ -97,7 +97,7 @@
         <mxCell id="fxcYr_ssBRMyKJwQaDaq-15" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="Fqjwemuar2yoj4iI6l3p-1">
           <mxGeometry x="177.75" y="124.5" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="fxcYr_ssBRMyKJwQaDaq-16" value="日志处理后写入byte[]" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="Fqjwemuar2yoj4iI6l3p-1">
+        <mxCell id="fxcYr_ssBRMyKJwQaDaq-16" value="数据处理后写入byte[]" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="Fqjwemuar2yoj4iI6l3p-1">
           <mxGeometry x="192.25" y="134.5" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="fxcYr_ssBRMyKJwQaDaq-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Fqjwemuar2yoj4iI6l3p-1" source="fxcYr_ssBRMyKJwQaDaq-18" target="fxcYr_ssBRMyKJwQaDaq-13">
@@ -205,7 +205,7 @@
         <mxCell id="pAeDwCkJuUzLrZHTrZlx-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="0-fxEheydLTSLFfFPdqd-1" source="d5g773a2mc4tCGmr_aPP-4" target="d5g773a2mc4tCGmr_aPP-19">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="pAeDwCkJuUzLrZHTrZlx-20" value="&lt;b&gt;HTTP 分块传输 (Streamloader)&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="pAeDwCkJuUzLrZHTrZlx-11">
+        <mxCell id="pAeDwCkJuUzLrZHTrZlx-20" value="&lt;b&gt;HTTP 异步分块传输 (Streamloader)&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="pAeDwCkJuUzLrZHTrZlx-11">
           <mxGeometry x="-0.3878" y="2" relative="1" as="geometry">
             <mxPoint x="-2" y="9" as="offset" />
           </mxGeometry>
@@ -219,7 +219,7 @@
         <mxCell id="d5g773a2mc4tCGmr_aPP-6" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="0-fxEheydLTSLFfFPdqd-1">
           <mxGeometry x="215.5" y="122" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="d5g773a2mc4tCGmr_aPP-7" value="日志处理" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="0-fxEheydLTSLFfFPdqd-1">
+        <mxCell id="d5g773a2mc4tCGmr_aPP-7" value="数据处理" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="0-fxEheydLTSLFfFPdqd-1">
           <mxGeometry x="230" y="132" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="d5g773a2mc4tCGmr_aPP-11" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="0-fxEheydLTSLFfFPdqd-1">
