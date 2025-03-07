@@ -103,7 +103,7 @@
         <mxCell id="fxcYr_ssBRMyKJwQaDaq-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Fqjwemuar2yoj4iI6l3p-1" source="fxcYr_ssBRMyKJwQaDaq-18" target="fxcYr_ssBRMyKJwQaDaq-13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="fxcYr_ssBRMyKJwQaDaq-42" value="&lt;span style=&quot;font-size: 12px; background-color: rgb(251, 251, 251);&quot;&gt;达到一定数量之后发送&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="fxcYr_ssBRMyKJwQaDaq-41">
+        <mxCell id="fxcYr_ssBRMyKJwQaDaq-42" value="&lt;span style=&quot;font-size: 12px; background-color: rgb(251, 251, 251);&quot;&gt;达到一定数量/时间之后发送&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="fxcYr_ssBRMyKJwQaDaq-41">
           <mxGeometry x="-0.0769" y="1" relative="1" as="geometry">
             <mxPoint x="-1" as="offset" />
           </mxGeometry>
